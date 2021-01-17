@@ -25,7 +25,7 @@ Once a VPS is obtained, follow these instructions.
 These instructions will help you install and setup a mySQL database if not already installed
 ### Install mySQL
 ```
-sudo apt-get install mysql-server
+sudo apt install mysql-server
 ```
 When prompted, set up a password for root.
 ### Configure mySQL Security
@@ -42,7 +42,7 @@ You should see a status message that says "active (running)".
 Python should be updated to version 3.6 because version 3.5 is not compatible with some libraries
 ```
 sudo apt update
-sudo apt-get install python3
+sudo apt install python3
 ```
 ## Install Python's pip
 Python's pip is a useful tool used to install python libraries
