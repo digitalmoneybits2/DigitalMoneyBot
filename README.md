@@ -60,10 +60,16 @@ Install the discord library used for the bot
 ```
 python3 -m pip install -U discord.py
 ```
+
 ## Install PyMySQL Library
+```
+sudo apt install python3-pymysql
+```
+or
 ```
 pip install PyMySQL
 ```
+
 ## Clone tipbot repository
 ```
 git clone https://github.com/digitalmoneybits2/DigitalMoneyBot
