@@ -85,3 +85,6 @@ cd DigitalMoneyBot-main
 
 python3 digitalmoneybot.py
 ```
+
+## Please donate some if you use this bot.. Thanks !
+BTC: 1LGvSbXGersy6aoMGd2gLhDwLEANABnusJ
