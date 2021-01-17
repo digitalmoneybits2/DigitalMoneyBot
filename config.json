@@ -1,0 +1,62 @@
+{"data": [
+    {
+        "discord": {
+            "token": "xxxxxxxxxxxxxxxxxxxxxxxx.xxxxxx.xxxxxx_xxxxxxxxxxxxxxxxxx_x",
+            "server": 000000000000000000,
+            "channel": 000000000000000000
+        },
+        "mysql": {
+            "db_host": "localhost",
+            "db_user": "xxxxxxxxxxxxxxxxxxxxxxxxx",
+            "db_pass": "xxxxxxxxxxxxxxxxxxxxxxxxx",
+            "db": "xxxxxxxxxxxxxxxxxxxxxxxxx"
+        },
+        "rpc": {
+            "rpc_host": "127.0.0.1",
+            "rpc_port": "00000",
+            "rpc_user": "xxxxxxxxxxxxxxxxxxxxxxxxx",
+            "rpc_pass": "xxxxxxxxxxxxxxxxxxxxxxxxx"
+        },
+        "logging": {
+            "print_level": 3,
+            "file": "log.txt",
+            "file_level": 3
+        },
+        "logger": {
+            "messagelogfile": "log.txt",
+            "file_level": 3
+        },
+        "rain": {
+            "user_activity_required_m": 1440,
+            "min_num_messages_requred": 1,
+            "delay_between_messages_required_s": 5,
+            "min_num_words_required": 1,
+            "max_recipients": 50,
+            "use_max_recipients": true,
+            "min_amount": 0.1
+        },
+        "embed_msg": {
+            "color": "009ff4",
+            "thumb_embed_url": "media.discordapp.net/attachments/634519845894881294/634757155379216394/dmb_logo-800x800.png?width=200&height=200",
+            "footer_msg_text": "- ━ ━━ 🇩 🇲 🇧 Digital Money Bot © 2021 ━━ Powered by Digital Money Bits 🇩 🇲 🇧 ━━ ━ -"
+        },
+        "txfee": 0.00001000,
+        "owners": [368113106347491331],
+        "withdraw_max_fee": 10.0,
+        "min_withdrawal": 1.0,
+        "treasurer": 100000000000000010,
+        "stake_bal": 100000000000000011,
+        "donation": 100000000000000012,
+        "game_bal": 100000000000000013,
+        "stake_pay": 100000000000000014,
+        "temp_bal": 100000000000000015,
+        "prefix": "$",
+        "description": "- ━ ━━ ━━━ ━━ ━ - Digital Money Bot - ━ ━━ ━━━ ━━ ━ -",
+        "skip_cogs": [],
+        "register_keyword": "register",
+        "explorer_url": "digitalmoneybits.io/tx/",
+        "currency_symbol": "DMB",
+        "currency_name": "Digitalmoneybits",
+        "MIN_CONFIRMATIONS_FOR_DEPOSIT": 10
+    }
+]}
