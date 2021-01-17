@@ -22,7 +22,7 @@ These files are intended to function as a multi-functional tipbot for DigitalMon
 These instructions were used to create a working bot in March 2018.
 Once a VPS is obtained, follow these instructions.
 ## mySQL
-These instructions will help you install and setup a mySQL database
+These instructions will help you install and setup a mySQL database if not already installed
 ### Install mySQL
 ```
 sudo apt-get install mysql-server
@@ -41,22 +41,20 @@ You should see a status message that says "active (running)".
 ## Update Python
 Python should be updated to version 3.6 because version 3.5 is not compatible with some libraries
 ```
-sudo add-apt-repository ppa:jonathonf/python-3.6
 sudo apt update
-sudo apt-get install python3.6
-sudo apt-get install python3.6-dev
-sudo apt-get install python3.6-venv
+sudo apt-get install python3
 ```
 ## Install Python's pip
 Python's pip is a useful tool used to install python libraries
 ```
+sudo apt install python3-pip
+```
+or
+```
 wget https://bootstrap.pypa.io/get-pip.py
-sudo python3.6 get-pip.py
+sudo python3 get-pip.py
 ```
-## Link python3 to python3.6
-```
-sudo ln -s /usr/bin/python3.6 /usr/local/bin/python3
-```
+
 ## Install Discord Library
 Install the discord library used for the bot
 ```
