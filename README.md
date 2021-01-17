@@ -77,7 +77,7 @@ Configure config.json
 
 ## Run bot
 ```
-cd DigitalMoneyBot
+cd DigitalMoneyBot-main
 
 python3 digitalmoneybot.py
 ```
