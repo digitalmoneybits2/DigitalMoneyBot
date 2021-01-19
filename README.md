@@ -77,6 +77,7 @@ git clone https://github.com/digitalmoneybits2/DigitalMoneyBot
 
 ## Configuration
 
+Rename config-sample.json to config.json
 Configure config.json
 
 ## Run bot
